@@ -1,0 +1,61 @@
+Here’s a quick reference of commonly used **Node.js commands** for various tasks:
+
+---
+
+### 🚀 **Basic Node.js Commands**
+
+| Purpose                            | Command                     |
+| ---------------------------------- | --------------------------- |
+| Run a Node.js file                 | `node filename.js`          |
+| Check Node version                 | `node -v`                   |
+| Open Node REPL (interactive shell) | `node`                      |
+| Exit Node REPL                     | `.exit` or `Ctrl + C` twice |
+
+---
+
+### 📦 **NPM (Node Package Manager) Commands**
+
+| Purpose                  | Command                                         |
+| ------------------------ | ----------------------------------------------- |
+| Check npm version        | `npm -v`                                        |
+| Initialize a project     | `npm init` *(or `npm init -y` to skip prompts)* |
+| Install a package        | `npm install <package>` or `npm i <package>`    |
+| Install a dev dependency | `npm install <package> --save-dev`              |
+| Uninstall a package      | `npm uninstall <package>`                       |
+| List installed packages  | `npm list`                                      |
+| Update all packages      | `npm update`                                    |
+
+---
+
+### 📁 **Project Setup & Scripts**
+
+| Purpose                            | Command                                      |
+| ---------------------------------- | -------------------------------------------- |
+| Run a script (from `package.json`) | `npm run <script-name>`                      |
+| Run `start` script                 | `npm start` *(shortcut for `npm run start`)* |
+| Run `test` script                  | `npm test` *(shortcut for `npm run test`)*   |
+
+---
+
+### 🧪 **Useful Tools**
+
+| Tool                                 | Install                                        | Run                                |
+| ------------------------------------ | ---------------------------------------------- | ---------------------------------- |
+| **Nodemon** *(auto-restarts server)* | `npm install -g nodemon`                       | `nodemon filename.js`              |
+| **ESLint** *(linter)*                | `npm install eslint --save-dev`                | `npx eslint yourfile.js`           |
+| **Prettier** *(code formatter)*      | `npm install --save-dev --save-exact prettier` | `npx prettier --write yourfile.js` |
+
+---
+
+### 🧰 **Common Node.js Modules**
+
+```js
+const fs = require('fs');         // File system
+const path = require('path');     // File paths
+const http = require('http');     // HTTP server
+const os = require('os');         // OS utilities
+```
+
+---
+
+If you’re working on something specific (e.g. creating an Express server, setting up a build tool, or writing a script), let me know and I’ll tailor the Node.js commands to that use case.
